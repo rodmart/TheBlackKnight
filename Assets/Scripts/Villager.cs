@@ -12,6 +12,7 @@ public class Villager : MonoBehaviour {
     public Transform player;
 	private int playOnce = 0;
 	public Text quest1;
+	public Image box;
 	
 
     // Use this for initialization
@@ -29,12 +30,14 @@ public class Villager : MonoBehaviour {
             audio.Play();
 			playOnce=1;
 			setQuest();
+			box.enabled=true;
         }
 		
 		if ((Distance() > rangeDistance) && (playOnce == 1))
         {
 			playOnce=0;
 			deleteQuest();
+			box.enabled=false;
         }
 
 
@@ -42,7 +45,8 @@ public class Villager : MonoBehaviour {
     }
 	
 	private void setQuest(){
-		quest1.text="I need your help!";
+		quest1.text= "Bread for sale! \n";
+		quest1.text+= "Get it while it's hot!";
 	}
 	
 	private void deleteQuest(){
