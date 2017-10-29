@@ -9,10 +9,13 @@ public class Villager : MonoBehaviour {
 
     public float rangeDistance;
     public Transform villager;
+	public float interaction;
     public Transform player;
-	private int playOnce = 0;
+	private int timesTalked = 0;
+	private int conversation = 0;
 	public Text quest1;
 	public Image box;
+
 	
 
     // Use this for initialization
@@ -24,34 +27,52 @@ public class Villager : MonoBehaviour {
 	void Update () {
 		Canvas quest = GetComponent<Canvas>();
 		AudioSource audio = GetComponent<AudioSource>();
-
-        if ((Distance() <= rangeDistance) && (playOnce == 0))
+		
+		//start dialogue
+        if ((Distance() <= rangeDistance) && (timesTalked == 0))
         {
             audio.Play();
-			playOnce=1;
-			setQuest();
+			timesTalked=1;
+			quest1.text= "Bread for sale! \n";
+			quest1.text+= "Get it while it's hot!";
 			box.enabled=true;
         }
 		
-		if ((Distance() > rangeDistance) && (playOnce == 1))
+		//interaction
+		if ((Distance() <= rangeDistance) && (timesTalked == 1))
         {
-			playOnce=0;
-			deleteQuest();
+			if(Distance() <= interaction){
+
+				box.enabled=true;
+				if(Input.GetKeyDown(KeyCode.Mouse0)){
+					quest1.text = "Want a loaf? \n";
+					quest1.text+= "(Y)es or (N)o";
+					conversation = 1;
+	
+				}
+				
+				if(conversation==1){
+					if(Input.GetKeyDown(KeyCode.Y))quest1.text = "1 loaf!";
+					if(Input.GetKeyDown(KeyCode.N))quest1.text = "Take care!";
+				}
+				
+			
+				
+			}
+		}
+		
+		//leaving dialogue
+		if ((Distance() > rangeDistance) && (timesTalked == 1))
+        {
+			timesTalked=0;
+			conversation=0;
+			quest1.text = "";
 			box.enabled=false;
+
         }
 
 
-
     }
-	
-	private void setQuest(){
-		quest1.text= "Bread for sale! \n";
-		quest1.text+= "Get it while it's hot!";
-	}
-	
-	private void deleteQuest(){
-		quest1.text = "";
-	}
 	
 	
 	private float Distance()
