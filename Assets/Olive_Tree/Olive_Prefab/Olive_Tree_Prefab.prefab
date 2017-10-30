@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3397792}
   - component: {fileID: 2359492}
   - component: {fileID: 9516072}
+  - component: {fileID: 136267079193179228}
   m_Layer: 0
   m_Name: Olive_Tree_Prefab
   m_TagString: Untagged
@@ -24,13 +25,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 138356}
-  m_LocalRotation: {x: -0.704684, y: -0.058484808, z: -0.058484897, w: 0.704684}
-  m_LocalPosition: {x: 205.56581, y: 0.18288004, z: 175.76889}
-  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.1771, y: -0.0138, z: -0}
+  m_LocalScale: {x: 0.3, y: 0.30000064, z: 0.3000005}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 60}
 --- !u!23 &2359492
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -102,3 +103,16 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 138356}
   m_IsPrefabParent: 1
+--- !u!136 &136267079193179228
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.05
+  m_Height: 0.01
+  m_Direction: 1
+  m_Center: {x: -0.01, y: -0.03, z: 0.05}
