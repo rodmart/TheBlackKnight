@@ -1,0 +1,1958 @@
+fileFormatVersion: 2
+guid: 8d4819f0b65938b4d913385d6ca1bf24
+timeCreated: 1472393844
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Chest
+    100002: HairA
+    100004: HairB
+    100006: HairC
+    100008: Head
+    100010: HelmetA
+    100012: HelmetB
+    100014: //RootNode
+    100016: L_Forearm
+    100018: L_Hand
+    100020: L_Hand_end
+    100022: L_Shin
+    100024: L_Shoulder
+    100026: MeshBody_LOD2
+    100028: MeshBody_LOD2_end
+    100030: Pelvis
+    100032: R_Forearm
+    100034: R_Hand
+    100036: R_Hand_end
+    100038: R_Shin
+    100040: R_Shoulder
+    100042: ROOT_UU3D
+    100044: Shield
+    100046: skeleton
+    100048: skeleton Footsteps
+    100050: skeleton Footsteps_end
+    100052: skeleton HeadNub
+    100054: skeleton HeadNub_end
+    100056: skeleton L Foot
+    100058: skeleton L Thigh
+    100060: skeleton L Toe0
+    100062: skeleton L Toe0Nub
+    100064: skeleton L Toe0Nub_end
+    100066: skeleton L UpperArm
+    100068: skeleton Neck
+    100070: skeleton R Foot
+    100072: skeleton R Thigh
+    100074: skeleton R Toe0
+    100076: skeleton R Toe0Nub
+    100078: skeleton R Toe0Nub_end
+    100080: skeleton R UpperArm
+    100082: Spear
+    100084: Sword1
+    100086: WarriorK
+    100088: WarriorKhight
+    100090: WarriorKhightLOD1
+    400000: Chest
+    400002: HairA
+    400004: HairB
+    400006: HairC
+    400008: Head
+    400010: HelmetA
+    400012: HelmetB
+    400014: //RootNode
+    400016: L_Forearm
+    400018: L_Hand
+    400020: L_Hand_end
+    400022: L_Shin
+    400024: L_Shoulder
+    400026: MeshBody_LOD2
+    400028: MeshBody_LOD2_end
+    400030: Pelvis
+    400032: R_Forearm
+    400034: R_Hand
+    400036: R_Hand_end
+    400038: R_Shin
+    400040: R_Shoulder
+    400042: ROOT_UU3D
+    400044: Shield
+    400046: skeleton
+    400048: skeleton Footsteps
+    400050: skeleton Footsteps_end
+    400052: skeleton HeadNub
+    400054: skeleton HeadNub_end
+    400056: skeleton L Foot
+    400058: skeleton L Thigh
+    400060: skeleton L Toe0
+    400062: skeleton L Toe0Nub
+    400064: skeleton L Toe0Nub_end
+    400066: skeleton L UpperArm
+    400068: skeleton Neck
+    400070: skeleton R Foot
+    400072: skeleton R Thigh
+    400074: skeleton R Toe0
+    400076: skeleton R Toe0Nub
+    400078: skeleton R Toe0Nub_end
+    400080: skeleton R UpperArm
+    400082: Spear
+    400084: Sword1
+    400086: WarriorK
+    400088: WarriorKhight
+    400090: WarriorKhightLOD1
+    2300000: HairA
+    2300002: HairB
+    2300004: HairC
+    2300006: HelmetA
+    2300008: HelmetB
+    2300010: Shield
+    2300012: Spear
+    2300014: Sword1
+    3300000: HairA
+    3300002: HairB
+    3300004: HairC
+    3300006: HelmetA
+    3300008: HelmetB
+    3300010: Shield
+    3300012: Spear
+    3300014: Sword1
+    4300000: HelmetB
+    4300002: HairB
+    4300004: HairA
+    4300006: HairC
+    4300008: HelmetA
+    4300010: Spear
+    4300012: Sword1
+    4300014: Shield
+    4300016: WarriorKhightLOD1
+    4300018: WarriorKhight
+    7400000: attackSpear
+    7400002: attackSword
+    7400004: blacksmith
+    7400006: death
+    7400008: dialog1
+    7400010: Dialog2
+    7400012: Guard with spear
+    7400014: hurt
+    7400016: idle
+    7400018: run
+    7400020: walk
+    7400022: work
+    7400024: attackSword
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: WarriorKhight
+    13700002: WarriorKhightLOD1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attackSpear
+      takeName: WarriorK|attackSpear
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackSword
+      takeName: WarriorK|attackSword
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: blacksmith
+      takeName: WarriorK|blacksmith
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: WarriorK|death
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dialog1
+      takeName: WarriorK|dialog1
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dialog2
+      takeName: WarriorK|Dialog2
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard with spear
+      takeName: WarriorK|Guard with spear
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: WarriorK|hurt
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: WarriorK|idle
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: WarriorK|run
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: WarriorK|walk
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: work
+      takeName: WarriorK|work
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WarriorK
+        weight: 1
+      - path: WarriorK/ROOT_UU3D
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HairC
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetA
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/HelmetB
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/Shield
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Spear
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/Sword1
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: WarriorK/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: WarriorKhight
+        weight: 1
+      - path: WarriorKhightLOD1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

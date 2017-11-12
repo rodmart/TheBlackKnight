@@ -1,0 +1,1949 @@
+fileFormatVersion: 2
+guid: 6906a9a065d3ca24283285d923625c1a
+timeCreated: 1472393840
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BlackSmith
+    100002: BlackSmith.001
+    100004: //RootNode
+    100006: BlackSmithTool
+    100008: Chest
+    100010: Hammer
+    100012: Head
+    100014: L_Forearm
+    100016: L_Hand
+    100018: L_Hand_end
+    100020: L_Hand_end_end
+    100022: L_Hand_end_end_end
+    100024: L_Shin
+    100026: L_Shoulder
+    100028: MeshBody_LOD2
+    100030: MeshBody_LOD2_end
+    100032: MeshBody_LOD2_end_end
+    100034: MeshBody_LOD2_end_end_end
+    100036: Pelvis
+    100038: R_Forearm
+    100040: R_Hand
+    100042: R_Hand_end
+    100044: R_Hand_end_end
+    100046: R_Hand_end_end_end
+    100048: R_Shin
+    100050: R_Shoulder
+    100052: ROOT_UU3D
+    100054: skeleton
+    100056: skeleton Footsteps
+    100058: skeleton Footsteps_end
+    100060: skeleton Footsteps_end_end
+    100062: skeleton Footsteps_end_end_end
+    100064: skeleton HeadNub
+    100066: skeleton HeadNub_end
+    100068: skeleton HeadNub_end_end
+    100070: skeleton HeadNub_end_end_end
+    100072: skeleton L Foot
+    100074: skeleton L Thigh
+    100076: skeleton L Toe0
+    100078: skeleton L Toe0Nub
+    100080: skeleton L Toe0Nub_end
+    100082: skeleton L Toe0Nub_end_end
+    100084: skeleton L Toe0Nub_end_end_end
+    100086: skeleton L UpperArm
+    100088: skeleton Neck
+    100090: skeleton R Foot
+    100092: skeleton R Thigh
+    100094: skeleton R Toe0
+    100096: skeleton R Toe0Nub
+    100098: skeleton R Toe0Nub_end
+    100100: skeleton R Toe0Nub_end_end
+    100102: skeleton R Toe0Nub_end_end_end
+    100104: skeleton R UpperArm
+    100106: sweep
+    100108: BlackSmithLOD1
+    400000: BlackSmith
+    400002: BlackSmith.001
+    400004: //RootNode
+    400006: BlackSmithTool
+    400008: Chest
+    400010: Hammer
+    400012: Head
+    400014: L_Forearm
+    400016: L_Hand
+    400018: L_Hand_end
+    400020: L_Hand_end_end
+    400022: L_Hand_end_end_end
+    400024: L_Shin
+    400026: L_Shoulder
+    400028: MeshBody_LOD2
+    400030: MeshBody_LOD2_end
+    400032: MeshBody_LOD2_end_end
+    400034: MeshBody_LOD2_end_end_end
+    400036: Pelvis
+    400038: R_Forearm
+    400040: R_Hand
+    400042: R_Hand_end
+    400044: R_Hand_end_end
+    400046: R_Hand_end_end_end
+    400048: R_Shin
+    400050: R_Shoulder
+    400052: ROOT_UU3D
+    400054: skeleton
+    400056: skeleton Footsteps
+    400058: skeleton Footsteps_end
+    400060: skeleton Footsteps_end_end
+    400062: skeleton Footsteps_end_end_end
+    400064: skeleton HeadNub
+    400066: skeleton HeadNub_end
+    400068: skeleton HeadNub_end_end
+    400070: skeleton HeadNub_end_end_end
+    400072: skeleton L Foot
+    400074: skeleton L Thigh
+    400076: skeleton L Toe0
+    400078: skeleton L Toe0Nub
+    400080: skeleton L Toe0Nub_end
+    400082: skeleton L Toe0Nub_end_end
+    400084: skeleton L Toe0Nub_end_end_end
+    400086: skeleton L UpperArm
+    400088: skeleton Neck
+    400090: skeleton R Foot
+    400092: skeleton R Thigh
+    400094: skeleton R Toe0
+    400096: skeleton R Toe0Nub
+    400098: skeleton R Toe0Nub_end
+    400100: skeleton R Toe0Nub_end_end
+    400102: skeleton R Toe0Nub_end_end_end
+    400104: skeleton R UpperArm
+    400106: sweep
+    400108: BlackSmithLOD1
+    2300000: BlackSmithTool
+    2300002: Hammer
+    2300004: sweep
+    3300000: BlackSmithTool
+    3300002: Hammer
+    3300004: sweep
+    4300000: sweep
+    4300002: Hammer
+    4300004: BlackSmith.001
+    4300006: BlackSmithTool
+    4300008: BlackSmithLOD1
+    4300010: BlackSmith
+    7400000: blacksmith
+    7400002: dialog1
+    7400004: dialog2
+    7400006: death
+    7400008: guard
+    7400010: hurt
+    7400012: idle
+    7400014: run
+    7400016: sweep
+    7400018: walk
+    7400020: converse1
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: BlackSmith.001
+    13700002: BlackSmith
+    13700004: BlackSmithLOD1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: blacksmith
+      takeName: BlackSmith.001|blacksmith
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackSmith
+        weight: 1
+      - path: BlackSmith.001
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end/MeshBody_LOD2_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end/skeleton L Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end/skeleton HeadNub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end/L_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/Hammer
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/R_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/sweep
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end/skeleton R Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end/skeleton Footsteps_end_end_end
+        weight: 1
+      - path: BlackSmithLOD1
+        weight: 1
+      - path: BlackSmithTool
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dialog1
+      takeName: BlackSmith.001|converse1
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackSmith
+        weight: 1
+      - path: BlackSmith.001
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end/MeshBody_LOD2_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end/skeleton L Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end/skeleton HeadNub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end/L_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/Hammer
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/R_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/sweep
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end/skeleton R Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end/skeleton Footsteps_end_end_end
+        weight: 1
+      - path: BlackSmithLOD1
+        weight: 1
+      - path: BlackSmithTool
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dialog2
+      takeName: BlackSmith.001|converse2
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackSmith
+        weight: 1
+      - path: BlackSmith.001
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end/MeshBody_LOD2_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end/skeleton L Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end/skeleton HeadNub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end/L_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/Hammer
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/R_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/sweep
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end/skeleton R Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end/skeleton Footsteps_end_end_end
+        weight: 1
+      - path: BlackSmithLOD1
+        weight: 1
+      - path: BlackSmithTool
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: BlackSmith.001|death
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackSmith
+        weight: 1
+      - path: BlackSmith.001
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end/MeshBody_LOD2_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end/skeleton L Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end/skeleton HeadNub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end/L_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/Hammer
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/R_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/sweep
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end/skeleton R Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end/skeleton Footsteps_end_end_end
+        weight: 1
+      - path: BlackSmithLOD1
+        weight: 1
+      - path: BlackSmithTool
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: guard
+      takeName: BlackSmith.001|guard
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackSmith
+        weight: 1
+      - path: BlackSmith.001
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end/MeshBody_LOD2_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end/skeleton L Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end/skeleton HeadNub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end/L_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/Hammer
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/R_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/sweep
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end/skeleton R Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end/skeleton Footsteps_end_end_end
+        weight: 1
+      - path: BlackSmithLOD1
+        weight: 1
+      - path: BlackSmithTool
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: BlackSmith.001|hurt
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackSmith
+        weight: 1
+      - path: BlackSmith.001
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end/MeshBody_LOD2_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end/skeleton L Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end/skeleton HeadNub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end/L_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/Hammer
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/R_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/sweep
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end/skeleton R Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end/skeleton Footsteps_end_end_end
+        weight: 1
+      - path: BlackSmithLOD1
+        weight: 1
+      - path: BlackSmithTool
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: BlackSmith.001|idle
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackSmith
+        weight: 1
+      - path: BlackSmith.001
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end/MeshBody_LOD2_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end/skeleton L Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end/skeleton HeadNub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end/L_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/Hammer
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/R_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/sweep
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end/skeleton R Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end/skeleton Footsteps_end_end_end
+        weight: 1
+      - path: BlackSmithLOD1
+        weight: 1
+      - path: BlackSmithTool
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: BlackSmith.001|run
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackSmith
+        weight: 1
+      - path: BlackSmith.001
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end/MeshBody_LOD2_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end/skeleton L Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end/skeleton HeadNub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end/L_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/Hammer
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/R_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/sweep
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end/skeleton R Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end/skeleton Footsteps_end_end_end
+        weight: 1
+      - path: BlackSmithLOD1
+        weight: 1
+      - path: BlackSmithTool
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sweep
+      takeName: BlackSmith.001|sweep
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackSmith
+        weight: 1
+      - path: BlackSmith.001
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end/MeshBody_LOD2_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end/skeleton L Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end/skeleton HeadNub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end/L_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/Hammer
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/R_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/sweep
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end/skeleton R Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end/skeleton Footsteps_end_end_end
+        weight: 1
+      - path: BlackSmithLOD1
+        weight: 1
+      - path: BlackSmithTool
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: BlackSmith.001|walk
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackSmith
+        weight: 1
+      - path: BlackSmith.001
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/MeshBody_LOD2/MeshBody_LOD2_end/MeshBody_LOD2_end_end/MeshBody_LOD2_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton L Thigh/L_Shin/skeleton
+          L Foot/skeleton L Toe0/skeleton L Toe0Nub/skeleton L Toe0Nub_end/skeleton
+          L Toe0Nub_end_end/skeleton L Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/Head/skeleton
+          HeadNub/skeleton HeadNub_end/skeleton HeadNub_end_end/skeleton HeadNub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/L_Shoulder/skeleton
+          L UpperArm/L_Forearm/L_Hand/L_Hand_end/L_Hand_end_end/L_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/Hammer
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/R_Hand_end/R_Hand_end_end/R_Hand_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton Neck/R_Shoulder/skeleton
+          R UpperArm/R_Forearm/R_Hand/sweep
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/Pelvis/Chest/skeleton R Thigh/R_Shin/skeleton
+          R Foot/skeleton R Toe0/skeleton R Toe0Nub/skeleton R Toe0Nub_end/skeleton
+          R Toe0Nub_end_end/skeleton R Toe0Nub_end_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end
+        weight: 1
+      - path: BlackSmith.001/ROOT_UU3D/skeleton/skeleton Footsteps/skeleton Footsteps_end/skeleton
+          Footsteps_end_end/skeleton Footsteps_end_end_end
+        weight: 1
+      - path: BlackSmithLOD1
+        weight: 1
+      - path: BlackSmithTool
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,90 @@
+fileFormatVersion: 2
+guid: 4b217b44cf7e7f94ca9a3194db3f776a
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    4300000: goblin warrior
+    4300002: goblin warrior cloth
+    4300004: goblin warrior boot A
+    4300006: goblin warrior boot B
+    4300008: goblin_arch
+    4300010: goblin_shield
+    4300012: goblin warrior arm armor L
+    4300014: goblin warrior wrist armor L
+    4300016: goblin warrior shoulder armor L
+    4300018: goblin_war_axe
+    4300020: goblin_war_club
+    4300022: goblin_war_sword
+    4300024: goblin_war_spear
+    4300026: goblin warrior arm armor R
+    4300028: goblin warrior wrist armor R
+    4300030: goblin warrior shoulder armor R
+    4300032: goblin warrior cap
+    4300034: goblin warrior mask
+    4300036: goblin warrior helmet
+    4300038: goblin warrior mohican
+    4300040: goblin warrior hair
+    4300042: goblin_quiver
+    4300044: goblin warrior armor
+    4300046: goblin warrior ponny tail
+    4300048: Goblin - spear ranger
+    4300050: Goblin - blade assassin
+    4300052: Goblin - axe warrior
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

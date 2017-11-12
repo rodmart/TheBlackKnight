@@ -1,0 +1,210 @@
+
+                                                   _MEDIEVAL CHARACTER PACK_ 
+
+
+this pack contains 9 Animated Character:
+
+ Models Only Texture Atlas Format:
+1 Barbarian -11 Animations-3 Color Texture Atlas/Normal Atlas Map png 
+1 Warrior -12 Animations -4 Color Texture Atlas/Normal Atlas Map png
+1 BlackSmith-10 Animations -4 Color Texture Atlas/Normal Atlas Map png
+1 Citizen Man-8 Animations -4 Color Texture Atlas/Normal Atlas Map png
+1 Citizen Man Fat 8 Animations -4 Color Texture Atlas/Normal Atlas Map png
+1 Citizen boy 8 Animations -4 Color Texture Atlas/Normal Atlas Map png
+1 Citizen Woman 8 Animations -4 Color Texture Atlas/Normal Atlas Map png
+1 Citizen Woman Fat 8 Animations -4 Color Texture Atlas/Normal Atlas Map png
+1 Citizen Girl 8 Animations -4 Color Texture Atlas/Normal Atlas Map png
+4-texture atlas character
+1-Character Texture Atlas Color1
+1-Character Texture Atlas Color2
+1-Character Texture Atlas Color3
+1-Character Texture Atlas Color4 
+
+4-Hair texture atlas and Normal for 4 color:
+
+1-Color Blonde
+1-Color Black
+1-Color silver
+1-Color Brown 
+
+
+included Object :
+1-Sword barbarian and Warrior
+1-Spear Warrior,Shield
+1-tool black Smith ,Hammer ,trunk ,broom
+1-bench
+4 -Hair
+
+Sound Effect:
+1-Barbarian Voice Attack
+1-Warrior Voice Attack
+1-black Smith Sound Effect Tool
+1-Sound Effect Nature Ambient 
+
+-ANIMATION -
+Barbarian:
+Attack 0-29
+Death 0-39
+Hurt 0-24
+idle 0-199
+idlesword 0-199
+Jump 0-24
+Run 0-24
+RunSword 0-24
+Walk 0-39
+Walk Sword 0-39
+Equip Sord 0-37
+
+WARRIOR:
+
+Attack Spear  0-29
+Attack Sword 0-30
+Death 0-39
+Hurt 0-19
+idle 0-199
+Dialog1 0-49
+Dialog2 0-49
+Run 0-24
+Guard Wit Spear 0-119
+Walk 0-24
+Work 0-39
+
+BLACK SMITH:
+
+Black Smith  0-30
+Guard 0-119
+Death 0-39
+Hurt 0-19
+idle 0-199
+Dialog1 0-49
+Dialog2 0-49
+Run 0-19
+Walk 0-24
+Sweep 0-39
+
+WOMAN:
+
+Death  0-40
+dialog 0-89
+Hurt 0-24
+Idle 0-179
+Run o-18
+Sitting Dialog 0-182
+Sitting Idle 0-460
+Walk 0-29
+
+WOMAN FAT:
+
+Death  0-40
+dialog 0-89
+Hurt 0-24
+Idle 0-179
+Run o-18
+Sitting Dialog 0-182
+Sitting Idle 0-460
+Walk 0-29
+
+GIRL:
+
+Death  0-40
+dialog 0-89
+Hurt 0-24
+Idle 0-179
+Run o-18
+Sitting Dialog 0-182
+Sitting Idle 0-460
+Walk 0-29
+
+
+MAN:
+
+Death  0-40
+dialog 0-89
+Hurt 0-24
+Idle 0-179
+Run o-18
+Sitting Dialog 0-182
+Sitting Idle 0-460
+Walk 0-29
+
+
+MAN FAT:
+
+Death  0-40
+dialog 0-89
+Hurt 0-24
+Idle 0-179
+Run o-18
+Sitting Dialog 0-182
+Sitting Idle 0-460
+Walk 0-29
+
+BOY:
+
+Death  0-40
+dialog 0-89
+Hurt 0-24
+Idle 0-179
+Run o-18
+Sitting Dialog 0-182
+Sitting Idle 0-460
+Walk 0-29
+
+
+
+
+Formats Models Only:
+fbx
+
+
+                                          ----       Unity3D Import   ------
+pack created unity 5
+ Version 5.3.5
+
+import package MedievalCharacterPack in the unity 5.3
+
+Prefab Models:
+All models are already ready for use in practical prefab already generated and ready for you you just place them in the scene.
+only sing
+ you can enable or disable ,items , hair ,accessories, weapons,by selecting them  the affected part in every single character,
+ or through the bone hierarchy, mesh of individual models.
+
+optimizations:
+
+1-Models Lowpoly saving on quantities of polygons
+2-Skeleton:
+Using a few bones but that guarantee a realistic movement necessary in order to ease the calculation.
+3-Animations
+Using short animations, big impact, Savings Calculation.
+4-TextureAtlas:
+Including homestyle considerable savings calculation.
+5-LOD:
+Included 1-LOD mesh Character for computing performance more fast and efficient:
+The package and 'made with the utmost care to ensure optimization and the lowest possible impact on computing performance into play.
+
+Ps important:
+it is possible that many models generally understood you present a notice in the console:
+ImportFBX Warnings:
+Can not import tangents and binormals, Because mesh.
+It frequently happens that Unity3D present this message because of particular exports and good to note that this does not mean that the model and compromise.
+proceed in this way:
+the item Model / Normals and Tangents.
+Normals:
+Calculate
+
+Smooting angle = 180
+
+Tangents
+Calculate Legacy
+
+Apply
+
+
+
+
+                                                
+
+
+                                         
+
+This package is created by ElkanSoft

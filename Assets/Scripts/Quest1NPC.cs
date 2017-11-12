@@ -16,6 +16,7 @@ public class Quest1NPC : MonoBehaviour {
 	public Text quest1;
 	public Image box;
 	private int onQuest =0;
+	public int questCompleted = 0;
 	private int enemies;
 
 	
@@ -28,15 +29,16 @@ public class Quest1NPC : MonoBehaviour {
 	void Update () {
 		Canvas quest = GetComponent<Canvas>();
 		AudioSource audio = GetComponent<AudioSource>();
-		GameObject[] trolls = GameObject.FindGameObjectsWithTag("Trolls");
-		enemies = trolls.Length;
+		GameObject[] goblins = GameObject.FindGameObjectsWithTag("Goblins");
+		enemies = goblins.Length;
 
 		
 		//start dialogue
         if ((Distance() <= rangeDistance) && (timesTalked == 0) && (onQuest==0))
         {
             audio.Play();
-			quest1.text= "That troll kidnapped my daughter! \n";
+			GetComponent<Animation>().Play("dialog");
+			quest1.text= "Those goblins kidnapped my daughter! \n";
 			quest1.text+= "Please help!";
 			box.enabled=true;
 			timesTalked = 1;
@@ -44,6 +46,7 @@ public class Quest1NPC : MonoBehaviour {
 		
 		if((Distance() <=interaction) && (timesTalked ==1))
 		{
+			GetComponent<Animation>().Play("dialog");
 			if(Input.GetKeyDown(KeyCode.Mouse0)){
 					quest1.text = "Will you help? \n";
 					quest1.text+= "(Y)es or (N)o";
@@ -62,14 +65,17 @@ public class Quest1NPC : MonoBehaviour {
 		
 		if((onQuest==1) && (timesTalked == 0) && (enemies >= 1))
 		{
+			GetComponent<Animation>().Play("dialog");
 			box.enabled = true;
 			quest1.text = "I hope you haven't given up on my daughter";
 		}
 		
 		if((onQuest==1) &&(timesTalked ==0) && (enemies ==0))
 		{
+			GetComponent<Animation>().Play("dialog");
 			box.enabled = true;
 			quest1.text = "Thank you so much!";
+			questCompleted = 1;
 		}
 		
 		//leaving dialogue
@@ -79,6 +85,7 @@ public class Quest1NPC : MonoBehaviour {
 			box.enabled=false;
 			timesTalked =0;
 			conversation=0;
+			GetComponent<Animation>().Play("idle");
 
         }
 
