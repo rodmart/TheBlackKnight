@@ -25,7 +25,7 @@ public class Baker : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Canvas quest = GetComponent<Canvas>();
+		
 		AudioSource audio = GetComponent<AudioSource>();
 		
 		//start dialogue

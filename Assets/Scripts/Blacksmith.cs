@@ -18,7 +18,7 @@ public class Blacksmith : MonoBehaviour {
 	public Image box;
 	private int onQuest =0;
 	public int questCompleted = 0;
-	private int enemies;
+	private int questCollectables;
 
 	
 
@@ -28,10 +28,9 @@ public class Blacksmith : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Canvas quest = GetComponent<Canvas>();
 		AudioSource audio = GetComponent<AudioSource>();
-		GameObject[] metals = GameObject.FindGameObjectsWithTag("collectables");
-		enemies = metals.Length;
+		GameObject[] collectables = GameObject.FindGameObjectsWithTag("collectables");
+		questCollectables = collectables.Length;
 
 		
 		//start dialogue
@@ -46,52 +45,55 @@ public class Blacksmith : MonoBehaviour {
 		
 		if((Distance() <=interaction) && (timesTalked ==1))
 		{
-			GetComponent<Animation>().Play("dialog2");
 			if(Input.GetKeyDown(KeyCode.Mouse0)){
 					quest1.text = "Need a new weapon? \n";
-					quest1.text = "Find me some metals and wood. \n";
-					quest1.text+= "(O)kay or (N)o, thanks";
+					quest1.text+= "(Y)es or (N)o";
 					conversation = 1;
+					GetComponent<Animation>().Play("dialog1");
 	
 				}
+				
 				if(conversation==1){
-					if(Input.GetKeyDown(KeyCode.O)){
-						quest1.text = "Bring me the supplies whenever";
+					if(Input.GetKeyDown(KeyCode.Y)){
+						quest1.text = "Bring me the metal and wood.";
 						onQuest = 1;
+						GetComponent<Animation>().Play("dialog1");
 					}
-					if(Input.GetKeyDown(KeyCode.N))quest1.text = "Come back if you change your mind";
+					if(Input.GetKeyDown(KeyCode.N)){
+						quest1.text = "Come back if you change your mind";
+						GetComponent<Animation>().Play("dialog2");
+					}
 				}
 				
 		}
 		
-		if((onQuest==1) && (timesTalked == 0) && (enemies >= 1))
+		if((onQuest==1) && (timesTalked == 0) && (questCollectables >= 1))
 		{
-			GetComponent<Animation>().Play("dialog1");
 			box.enabled = true;
 			quest1.text = "I need more materials \n";
 			quest1.text += "before I can make your weapon.";
 			
 		}
 		
-		if((onQuest==1) &&(timesTalked ==0) && (enemies ==0))
+		if((onQuest==1) &&(timesTalked ==0) && (questCollectables ==0))
 		{
-			GetComponent<Animation>().Play("dialog2");
+			
 			box.enabled = true;
 			quest1.text = "Thanks for the work";
 			questCompleted = 1;
 		}
 		
+		
 		//leaving dialogue
 		if (Distance() > rangeDistance)
         {
+			GetComponent<Animation>().Play("blacksmith");
 			quest1.text = "";
 			box.enabled=false;
 			timesTalked =0;
 			conversation=0;
-			GetComponent<Animation>().Play("blacksmith");
 
         }
-
 
     }
 	

@@ -27,7 +27,6 @@ public class Quest1NPC : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Canvas quest = GetComponent<Canvas>();
 		AudioSource audio = GetComponent<AudioSource>();
 		GameObject[] goblins = GameObject.FindGameObjectsWithTag("Goblins");
 		enemies = goblins.Length;
