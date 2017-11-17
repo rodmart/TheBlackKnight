@@ -1,8 +1,106 @@
 fileFormatVersion: 2
 guid: 4b217b44cf7e7f94ca9a3194db3f776a
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 21
   fileIDToRecycleName:
+    100000: bip_horde
+    100002: bip_hordeHead
+    100004: bip_hordeHeadBone001
+    100006: bip_hordeHeadBone002
+    100008: bip_hordeLCalf
+    100010: bip_hordeLCollarbone
+    100012: bip_hordeLDigit11
+    100014: bip_hordeLDigit11 1
+    100016: bip_hordeLDigit12
+    100018: bip_hordeLDigit21
+    100020: bip_hordeLDigit22
+    100022: bip_hordeLFoot
+    100024: bip_hordeLForearm
+    100026: bip_hordeLIKTarget
+    100028: bip_hordeLPalm
+    100030: bip_hordeLPlatform
+    100032: bip_hordeLThigh
+    100034: bip_hordeLUpperarm
+    100036: bip_hordeNeck1
+    100038: bip_hordeNeck2
+    100040: bip_hordePelvis
+    100042: bip_hordeRCalf
+    100044: bip_hordeRCollarbone
+    100046: bip_hordeRDigit11
+    100048: bip_hordeRDigit11 1
+    100050: bip_hordeRDigit12
+    100052: bip_hordeRDigit21
+    100054: bip_hordeRDigit22
+    100056: bip_hordeRFoot
+    100058: bip_hordeRForearm
+    100060: bip_hordeRibcage
+    100062: bip_hordeRIKTarget
+    100064: bip_hordeRPalm
+    100066: bip_hordeRPlatform
+    100068: bip_hordeRThigh
+    100070: bip_hordeRUpperarm
+    100072: bip_hordeSpine1
+    100074: bip_hordeSpine2
+    100076: bon_gob_war_cloth00
+    100078: bon_gob_war_cloth01
+    100080: bon_gob_war_cloth_tip
+    100082: bon_gob_war_jaw
+    100084: bon_gob_war_jaw_tip
+    100086: Goblin - axe warrior
+    100088: //RootNode
+    100090: goblin_shield
+    100092: goblin_war_axe
+    400000: bip_horde
+    400002: bip_hordeHead
+    400004: bip_hordeHeadBone001
+    400006: bip_hordeHeadBone002
+    400008: bip_hordeLCalf
+    400010: bip_hordeLCollarbone
+    400012: bip_hordeLDigit11
+    400014: bip_hordeLDigit11 1
+    400016: bip_hordeLDigit12
+    400018: bip_hordeLDigit21
+    400020: bip_hordeLDigit22
+    400022: bip_hordeLFoot
+    400024: bip_hordeLForearm
+    400026: bip_hordeLIKTarget
+    400028: bip_hordeLPalm
+    400030: bip_hordeLPlatform
+    400032: bip_hordeLThigh
+    400034: bip_hordeLUpperarm
+    400036: bip_hordeNeck1
+    400038: bip_hordeNeck2
+    400040: bip_hordePelvis
+    400042: bip_hordeRCalf
+    400044: bip_hordeRCollarbone
+    400046: bip_hordeRDigit11
+    400048: bip_hordeRDigit11 1
+    400050: bip_hordeRDigit12
+    400052: bip_hordeRDigit21
+    400054: bip_hordeRDigit22
+    400056: bip_hordeRFoot
+    400058: bip_hordeRForearm
+    400060: bip_hordeRibcage
+    400062: bip_hordeRIKTarget
+    400064: bip_hordeRPalm
+    400066: bip_hordeRPlatform
+    400068: bip_hordeRThigh
+    400070: bip_hordeRUpperarm
+    400072: bip_hordeSpine1
+    400074: bip_hordeSpine2
+    400076: bon_gob_war_cloth00
+    400078: bon_gob_war_cloth01
+    400080: bon_gob_war_cloth_tip
+    400082: bon_gob_war_jaw
+    400084: bon_gob_war_jaw_tip
+    400086: Goblin - axe warrior
+    400088: //RootNode
+    400090: goblin_shield
+    400092: goblin_war_axe
+    2300000: goblin_shield
+    2300002: goblin_war_axe
+    3300000: goblin_shield
+    3300002: goblin_war_axe
     4300000: goblin warrior
     4300002: goblin warrior cloth
     4300004: goblin warrior boot A
@@ -30,6 +128,8 @@ ModelImporter:
     4300048: Goblin - spear ranger
     4300050: Goblin - blade assassin
     4300052: Goblin - axe warrior
+    11100000: //RootNode
+    13700000: Goblin - axe warrior
   materials:
     importMaterials: 1
     materialName: 3
@@ -37,22 +137,33 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -66,24 +177,30 @@ ModelImporter:
     useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
