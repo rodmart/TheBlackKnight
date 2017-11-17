@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Axe.cs" />
      <Compile Include="Assets\Knight\scripts\rotator.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
@@ -67,6 +68,7 @@
      <Compile Include="Assets\Scripts\Quest1NPC.cs" />
      <Compile Include="Assets\Scripts\TestingDeath.cs" />
      <Compile Include="Assets\Scripts\Text_Box_Facing_Camera.cs" />
+     <Compile Include="Assets\Sword.cs" />
      <None Include="Assets\Earthborn Troll\Shader\Alpha_Texture.shader" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
