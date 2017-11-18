@@ -9,6 +9,7 @@ TagManager:
   - Trolls
   - Goblins
   - collectables
+  - Enemy
   layers:
   - Default
   - TransparentFX

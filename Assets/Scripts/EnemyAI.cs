@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using UnityEngine;
-using System.Collections;
 
 public class EnemyAI : MonoBehaviour {
 	public Transform target;
+	public GameObject target1;
 	public int moveSpeed;
 	public int rotationSpeed;
 	public int maxdistance;
+	public int health;
 
 	private Transform myTransform;
 
@@ -19,9 +19,8 @@ public class EnemyAI : MonoBehaviour {
 
 
 	void Start () {
-		GameObject go = GameObject.FindGameObjectWithTag("Player");
-
-		target = go.transform;
+		
+		target = target1.transform;
 
 		maxdistance = 2;
 	}
@@ -39,5 +38,8 @@ public class EnemyAI : MonoBehaviour {
 
 		}
 	}
+	
+
+
 
 }

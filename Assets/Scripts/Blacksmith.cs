@@ -45,7 +45,7 @@ public class Blacksmith : MonoBehaviour {
 		
 		if((Distance() <=interaction) && (timesTalked ==1))
 		{
-			if(Input.GetKeyDown(KeyCode.Mouse0)){
+			if(Input.GetKeyDown(KeyCode.E)){
 					quest1.text = "Need a new weapon? \n";
 					quest1.text+= "(Y)es or (N)o";
 					conversation = 1;

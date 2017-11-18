@@ -15,7 +15,7 @@ public class Quest1NPC : MonoBehaviour {
 	private int conversation = 0;
 	public Text quest1;
 	public Image box;
-	private int onQuest =0;
+	public int onQuest =0;
 	public int questCompleted = 0;
 	private int enemies;
 
@@ -46,7 +46,7 @@ public class Quest1NPC : MonoBehaviour {
 		if((Distance() <=interaction) && (timesTalked ==1))
 		{
 			GetComponent<Animation>().Play("dialog");
-			if(Input.GetKeyDown(KeyCode.Mouse0)){
+			if(Input.GetKeyDown(KeyCode.E)){
 					quest1.text = "Will you help? \n";
 					quest1.text+= "(Y)es or (N)o";
 					conversation = 1;

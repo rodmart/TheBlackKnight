@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using UnityEngine;
-using System.Collections;
 
 public class EnemyAttack : MonoBehaviour {
 	public GameObject target;
@@ -15,7 +13,7 @@ public class EnemyAttack : MonoBehaviour {
 	void Start () {
 		attackTime = 0;
 		coolDown = 2.0f;
-
+		GetComponent<Animation>().Play("idle basic");
 	}
 
 
@@ -28,6 +26,7 @@ public class EnemyAttack : MonoBehaviour {
 
 
 		if(attackTime == 0) {
+			GetComponent<Animation>().Play("idle fight");
 			Attack();
 			attackTime = coolDown;
 		}
@@ -44,6 +43,7 @@ public class EnemyAttack : MonoBehaviour {
 
 		if(distance < 2.5f) {
 			if(direction > 0) { 
+				GetComponent<Animation>().Play("attack1");
 				PlayerHealth eh = (PlayerHealth)target.GetComponent("PlayerHealth");
 				eh.AddjustCurrentHealth(-10);
 			}
