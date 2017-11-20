@@ -10,6 +10,7 @@ TagManager:
   - Goblins
   - collectables
   - Enemy
+  - pickup
   layers:
   - Default
   - TransparentFX

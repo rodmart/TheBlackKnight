@@ -4,6 +4,7 @@ using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
 
+
 namespace UnityStandardAssets.Characters.FirstPerson
 {
     [RequireComponent(typeof (CharacterController))]
@@ -41,6 +42,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+
 
         // Use this for initialization
         private void Start()
@@ -81,6 +83,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Ray ray = m_Camera.ScreenPointToRay(m_Camera.transform.position);
+                RaycastHit hit;
+
+                if(Physics.Raycast(ray, out hit ))
+                { 
+
+                }
+            }
+
         }
 
 
