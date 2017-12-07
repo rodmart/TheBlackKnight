@@ -44,15 +44,20 @@ public class Baker : MonoBehaviour {
 			if(Distance() <= interaction){
 
 				box.enabled=true;
-				if(Input.GetKeyDown(KeyCode.Mouse0)){
-					quest1.text = "Want a loaf? \n";
+				if(Input.GetKeyDown(KeyCode.E)){
+					quest1.text = "Want some food? \n";
 					quest1.text+= "(Y)es or (N)o";
 					conversation = 1;
 	
 				}
 				
 				if(conversation==1){
-					if(Input.GetKeyDown(KeyCode.Y))quest1.text = "1 loaf!";
+					if(Input.GetKeyDown(KeyCode.Y))
+					{
+						quest1.text = "Hope that heals you up!";
+						PlayerHealth eh = (PlayerHealth)player.GetComponent("PlayerHealth");
+						eh.AddjustCurrentHealth(100);
+					}
 					if(Input.GetKeyDown(KeyCode.N))quest1.text = "Take care!";
 				}
 				

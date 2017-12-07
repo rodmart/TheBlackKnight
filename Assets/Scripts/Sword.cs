@@ -21,19 +21,6 @@ public class Sword : MonoBehaviour {
 
 	}
 
-	
-	void OnTriggerEnter(Collider col){
-		if (col.gameObject.tag == "Goblins")
-		{
-            Destroy(col.gameObject);
-        }
-
-    }
-
-
-
-
-
 	public interface ISwordHittable {
 
 		void OnGetHitByAxe(float hitValue);

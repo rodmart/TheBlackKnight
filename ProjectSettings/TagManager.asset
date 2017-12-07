@@ -11,6 +11,7 @@ TagManager:
   - collectables
   - Enemy
   - pickup
+  - sword
   layers:
   - Default
   - TransparentFX
