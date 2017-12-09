@@ -18,6 +18,8 @@ public class PlayerHealth : MonoBehaviour {
 
 	void Update () {
 		AddjustCurrentHealth(0);
+		if(curHealth <= 0)
+		Application.LoadLevel(Application.loadedLevel);
 
 	}
 
@@ -32,6 +34,7 @@ public class PlayerHealth : MonoBehaviour {
 
 		if(curHealth < 0)
 			curHealth = 0;
+			
 
 		if(curHealth > maxHealth)
 			curHealth = maxHealth;
