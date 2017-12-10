@@ -7,10 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class Quest1NPC : MonoBehaviour {
 
-    public float rangeDistance;
-    public Transform NPC;
-	public float interaction;
-    public Transform player;
+    private float rangeDistance;
+	private float interaction;
+    private Transform player;
 	private int timesTalked = 0;
 	private int conversation = 0;
 	public Text quest1;
@@ -23,38 +22,43 @@ public class Quest1NPC : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+		rangeDistance=7;
+		interaction = 5;
+		player = GameObject.FindWithTag("Player").transform;
     }
 	
 	// Update is called once per frame
 	void Update () {
-		AudioSource audio = GetComponent<AudioSource>();
 		GameObject[] goblins = GameObject.FindGameObjectsWithTag("Goblins");
 		enemies = goblins.Length;
 
 		
 		//start dialogue
-        if ((Distance() <= rangeDistance) && (timesTalked == 0) && (onQuest==0))
+        if ((Distance() <= rangeDistance) && (timesTalked == 0))
         {
-            audio.Play();
-			GetComponent<Animation>().Play("dialog");
-			quest1.text= "Those goblins kidnapped my daughter! \n";
-			quest1.text+= "Please help!";
+			AudioSource audio = GetComponent<AudioSource>();
+			quest1.text = "Hello\n";
 			box.enabled=true;
-			timesTalked = 1;
+			GetComponent<Animation>().Play("dialog");
+			
+			if(Input.GetKeyDown(KeyCode.E)){
+				timesTalked = 1;
+				audio.Play();
+				}
         }
 		
-		if((Distance() <=interaction) && (timesTalked ==1))
+		if((Distance() <=interaction) && (timesTalked ==1)&& (onQuest==0))
 		{
 			GetComponent<Animation>().Play("dialog");
 			if(Input.GetKeyDown(KeyCode.E)){
-					quest1.text = "Will you help? \n";
+					quest1.text = "Will you help me slay the goblins? \n";
 					quest1.text+= "(Y)es or (N)o";
 					conversation = 1;
 	
 				}
 				if(conversation==1){
 					if(Input.GetKeyDown(KeyCode.Y)){
-						quest1.text = "I hope you make it in time...";
+						quest1.text = "I hope you make it in time";
 						onQuest = 1;
 					}
 					if(Input.GetKeyDown(KeyCode.N))quest1.text = "I hope someone will help me then...";
@@ -62,14 +66,14 @@ public class Quest1NPC : MonoBehaviour {
 				
 		}
 		
-		if((onQuest==1) && (timesTalked == 0) && (enemies >= 1))
+		if((onQuest==1) && (timesTalked == 1) && (enemies >= 1))
 		{
 			GetComponent<Animation>().Play("dialog");
 			box.enabled = true;
-			quest1.text = "I hope you haven't given up on my daughter";
+			quest1.text = "There's still " + enemies +" goblin(s) left to slay.";
 		}
 		
-		if((onQuest==1) &&(timesTalked ==0) && (enemies ==0))
+		if((onQuest==1) &&(timesTalked ==1) && (enemies ==0))
 		{
 			GetComponent<Animation>().Play("dialog");
 			box.enabled = true;
@@ -95,6 +99,6 @@ public class Quest1NPC : MonoBehaviour {
 	private float Distance()
     {
 
-        return Vector3.Distance(player.position, NPC.position);
+        return Vector3.Distance(player.position, this.transform.position);
     }
 }

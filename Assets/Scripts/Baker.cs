@@ -7,10 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class Baker : MonoBehaviour {
 
-    public float rangeDistance;
-    public Transform baker;
-	public float interaction;
-    public Transform player;
+    private float rangeDistance;
+	private float interaction;
+    private Transform player;
 	private int timesTalked = 0;
 	private int conversation = 0;
 	public Text quest1;
@@ -20,20 +19,21 @@ public class Baker : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-
+		rangeDistance=7;
+		interaction = 5;
+		player = GameObject.FindWithTag("Player").transform;
     }
 	
 	// Update is called once per frame
 	void Update () {
 		
-		AudioSource audio = GetComponent<AudioSource>();
-		
 		//start dialogue
         if ((Distance() <= rangeDistance) && (timesTalked == 0))
         {
+            AudioSource audio = GetComponent<AudioSource>();
             audio.Play();
 			timesTalked=1;
-			quest1.text= "Bread for sale! \n";
+			quest1.text= "Fresh meals! \n";
 			quest1.text+= "Get it while it's hot!";
 			box.enabled=true;
         }
@@ -56,7 +56,7 @@ public class Baker : MonoBehaviour {
 					{
 						quest1.text = "Hope that heals you up!";
 						PlayerHealth eh = (PlayerHealth)player.GetComponent("PlayerHealth");
-						eh.AddjustCurrentHealth(100);
+						eh.AddjustCurrentHealth(200);
 					}
 					if(Input.GetKeyDown(KeyCode.N))quest1.text = "Take care!";
 				}
@@ -83,6 +83,6 @@ public class Baker : MonoBehaviour {
 	private float Distance()
     {
 
-        return Vector3.Distance(player.position, baker.position);
+        return Vector3.Distance(player.position, this.transform.position);
     }
 }

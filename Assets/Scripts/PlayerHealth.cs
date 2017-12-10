@@ -1,26 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 
 public class PlayerHealth : MonoBehaviour {
 	public int maxHealth = 100;
 	public int curHealth = 100;
-
+	public int enemies;
 	public float healthBarLength;
-
-
+	public int questCompleted1 = 0;
+	
+	public GameObject QuestGiver;
 	void Start () {
-		healthBarLength = Screen.width / 2;
 	}
 
 
 	void Update () {
 		AddjustCurrentHealth(0);
 		if(curHealth <= 0)
-		Application.LoadLevel(Application.loadedLevel);
-
+			SceneManager.LoadScene("Terrain");
+		
+		//Application.Quit(); use when exiting game
+		questCompleted1 = QuestGiver.GetComponent<Quest1NPC>().questCompleted;
+		
+		if(questCompleted1==1)
+		{
+			maxHealth = 200;
+		}
 	}
 
 
@@ -42,6 +49,6 @@ public class PlayerHealth : MonoBehaviour {
 		if(maxHealth < 1)
 			maxHealth = 1;
 
-		healthBarLength = (Screen.width / 2) * (curHealth / (float)maxHealth);
+		healthBarLength = (Screen.width / 3) * (curHealth / (float)maxHealth);
 	}
 }

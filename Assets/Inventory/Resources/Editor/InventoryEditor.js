@@ -33,7 +33,7 @@ class InventoryEditor extends EditorWindow {
 	{
 		// Get existing open window or if none, make a new one:
 		var window = ScriptableObject.CreateInstance.<InventoryEditor>();
-		window.title = "Inventory";
+		//window.title = "Inventory";
 		window.Show();
 	}
 	
@@ -315,7 +315,7 @@ class InventoryEditor extends EditorWindow {
 	
 	function InventoryDelete ()
 	{
-		Undo.RegisterSceneUndo("PlayersInv");
+		//Undo.RegisterSceneUndo("PlayersInv");
 	
 		selected +=  selectedObject.name + " ";
 		

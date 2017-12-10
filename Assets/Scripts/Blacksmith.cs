@@ -8,15 +8,14 @@ using UnityEngine.SceneManagement;
 public class Blacksmith : MonoBehaviour {
 
 
-    public float rangeDistance;
-    public Transform NPC;
-	public float interaction;
-    public Transform player;
+    private float rangeDistance;
+	private float interaction;
+    private Transform player;
 	private int timesTalked = 0;
 	private int conversation = 0;
 	public Text quest1;
 	public Image box;
-	private int onQuest =0;
+	public int onQuest =0;
 	public int questCompleted = 0;
 	private int questCollectables;
 
@@ -24,29 +23,35 @@ public class Blacksmith : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+		rangeDistance=7;
+		interaction = 5;
+		player = GameObject.FindWithTag("Player").transform;
     }
 	
 	// Update is called once per frame
 	void Update () {
-		AudioSource audio = GetComponent<AudioSource>();
 		GameObject[] collectables = GameObject.FindGameObjectsWithTag("collectables");
 		questCollectables = collectables.Length;
 
 		
 		//start dialogue
-        if ((Distance() <= rangeDistance) && (timesTalked == 0) && (onQuest==0))
+        if ((Distance() <= rangeDistance) && (timesTalked == 0) )
         {
-            audio.Play();
-			GetComponent<Animation>().Play("dialog1");
-			quest1.text= "Can I help you? \n";
+			AudioSource audio = GetComponent<AudioSource>();
+			quest1.text = "Hello\n";
 			box.enabled=true;
-			timesTalked = 1;
+			GetComponent<Animation>().Play("dialog1");
+			
+			if(Input.GetKeyDown(KeyCode.E)){
+				timesTalked = 1;
+				audio.Play();
+				}
         }
 		
-		if((Distance() <=interaction) && (timesTalked ==1))
+		if((Distance() <=interaction) && (timesTalked ==1)&& (onQuest==0))
 		{
 			if(Input.GetKeyDown(KeyCode.E)){
-					quest1.text = "Need a new weapon? \n";
+					quest1.text = "Need a sharper weapon? \n";
 					quest1.text+= "(Y)es or (N)o";
 					conversation = 1;
 					GetComponent<Animation>().Play("dialog1");
@@ -55,7 +60,7 @@ public class Blacksmith : MonoBehaviour {
 				
 				if(conversation==1){
 					if(Input.GetKeyDown(KeyCode.Y)){
-						quest1.text = "Bring me the metal and wood.";
+						quest1.text = "Bring me some rusty swords.";
 						onQuest = 1;
 						GetComponent<Animation>().Play("dialog1");
 					}
@@ -67,19 +72,19 @@ public class Blacksmith : MonoBehaviour {
 				
 		}
 		
-		if((onQuest==1) && (timesTalked == 0) && (questCollectables >= 1))
+		if((onQuest==1) && (timesTalked == 1) && (questCollectables >= 1))
 		{
 			box.enabled = true;
-			quest1.text = "I need more materials \n";
+			quest1.text = "I need " + questCollectables +" rusty sword(s) \n";
 			quest1.text += "before I can make your weapon.";
 			
 		}
 		
-		if((onQuest==1) &&(timesTalked ==0) && (questCollectables ==0))
+		if((onQuest==1) &&(timesTalked ==1) && (questCollectables ==0))
 		{
 			
 			box.enabled = true;
-			quest1.text = "Thanks for the work";
+			quest1.text = "Enjoy your new blade";
 			questCompleted = 1;
 		}
 		
@@ -101,6 +106,6 @@ public class Blacksmith : MonoBehaviour {
 	private float Distance()
     {
 
-        return Vector3.Distance(player.position, NPC.position);
+        return Vector3.Distance(player.position, this.transform.position);
     }
 }

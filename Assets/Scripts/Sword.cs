@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Sword : MonoBehaviour {
 
-
+	public int questCompleted1 = 0;
+	public GameObject QuestGiver;
 
 	// Use this for initialization
 	void Start () {
-
-
+	transform.gameObject.tag = "sword"; 
 	}
 
 
@@ -18,6 +18,14 @@ public class Sword : MonoBehaviour {
 
 		if (Input.GetMouseButtonDown (0))    
 			GetComponent<Animation>().Play();
+		
+		questCompleted1 = QuestGiver.GetComponent<Blacksmith>().questCompleted;
+
+		
+		if(questCompleted1 == 1)
+		{
+			transform.gameObject.tag = "swordUpgrade"; 
+		}
 
 	}
 

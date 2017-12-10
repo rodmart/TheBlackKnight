@@ -6,12 +6,12 @@ TagManager:
   tags:
   - Fire
   - NPC
-  - Trolls
   - Goblins
   - collectables
   - Enemy
   - pickup
   - sword
+  - swordUpgrade
   layers:
   - Default
   - TransparentFX

@@ -4,36 +4,47 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class EnemyAI : MonoBehaviour {
-	public Transform player;
-	public GameObject target;
-	public int moveSpeed;
-	public int rotationSpeed;
-	public int maxdistance;
-	public int mindistance;
+	private Transform player;
+	private GameObject target;
+	private int moveSpeed;
+	private int rotationSpeed;
+	private int maxdistance;
+	private int mindistance;
 	public GameObject mob;
 	private Transform myTransform;
 	
-	public int maxHealth = 100;
-	public int curHealth = 100;
-	public bool alive = true;
+	private int maxHealth = 100;
+	private int curHealth = 100;
+	private bool alive = true;
 	
 	public Text healthdisplay;
 	public Image box;
 	
-	public float attackTime;
-	public float coolDown;
+	private float attackTime;
+	private float coolDown;
 
 	void Start(){
 		myTransform = transform;
 		attackTime = 2.0f;
 		coolDown = 2.0f;
+		player = GameObject.FindWithTag("Player").transform;
+		target = GameObject.FindWithTag("Player");
+		moveSpeed=3;
+		rotationSpeed = 10;
+		maxdistance = 10;
+		mindistance = 2;
+		maxHealth = 100;
+		curHealth = 100;
 	}
 
 	void OnTriggerEnter(Collider col){
-		if (col.gameObject.tag == "sword")
-		{
-            curHealth -= 50;
-        }
+			if (col.gameObject.tag == "sword"){
+				curHealth -= 20;
+			}
+			
+			if (col.gameObject.tag == "swordUpgrade"){
+				curHealth -= 40;
+			}
     }
 
 
