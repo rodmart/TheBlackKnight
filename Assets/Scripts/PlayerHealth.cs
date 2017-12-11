@@ -19,7 +19,7 @@ public class PlayerHealth : MonoBehaviour {
 	void Update () {
 		AddjustCurrentHealth(0);
 		if(curHealth <= 0)
-			SceneManager.LoadScene("Terrain");
+			SceneManager.LoadScene("Menu");
 		
 		//Application.Quit(); use when exiting game
 		questCompleted1 = QuestGiver.GetComponent<Quest1NPC>().questCompleted;
