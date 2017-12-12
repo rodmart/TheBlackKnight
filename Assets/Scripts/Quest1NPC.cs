@@ -58,7 +58,7 @@ public class Quest1NPC : MonoBehaviour {
 				}
 				if(conversation==1){
 					if(Input.GetKeyDown(KeyCode.Y)){
-						quest1.text = "I hope you make it in time";
+						quest1.text = "Good luck slaying them.";
 						onQuest = 1;
 					}
 					if(Input.GetKeyDown(KeyCode.N))quest1.text = "I hope someone will help me then...";
