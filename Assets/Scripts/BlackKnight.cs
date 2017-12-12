@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class BlackKnight : MonoBehaviour {
 	private Transform player;
 	private GameObject target;
@@ -21,19 +22,20 @@ public class BlackKnight : MonoBehaviour {
 	
 	private float attackTime;
 	private float coolDown;
+	
 
 	void Start(){
 		myTransform = transform;
-		attackTime = 2.0f;
-		coolDown = 2.0f;
+		attackTime = 2.5f;
+		coolDown = 2.5f;
 		player = GameObject.FindWithTag("Player").transform;
 		target = GameObject.FindWithTag("Player");
 		moveSpeed=3;
 		rotationSpeed = 10;
 		maxdistance = 15;
 		mindistance = 3;
-		maxHealth = 1000;
-		curHealth = 1000;
+		maxHealth = 200;
+		curHealth = 200;
 	}
 
 	void OnTriggerEnter(Collider col){
@@ -54,7 +56,7 @@ public class BlackKnight : MonoBehaviour {
 		if((curHealth <= 0) && (alive))
 		{
 			alive = false;
-			GetComponent<Animation>().Play("death");
+			GetComponent<Animation>().Play("NPS_Warr_dead-on-back");
 			Destroy(mob,3);
 			healthdisplay.text = curHealth + "/" + maxHealth;
 			
@@ -71,7 +73,7 @@ public class BlackKnight : MonoBehaviour {
 		
 		if((distance() > maxdistance)&& (alive))
 		{
-			GetComponent<Animation>().Play("idle");
+			GetComponent<Animation>().Play("NPS_Warr_staying_01");
 			box.enabled = false;
 			healthdisplay.text = "";
 		}
@@ -79,7 +81,7 @@ public class BlackKnight : MonoBehaviour {
 
 		if((distance() < maxdistance)  && (distance() > mindistance)&&(alive)){
 			//Move towards player
-			GetComponent<Animation>().Play("walk");
+			GetComponent<Animation>().Play("NPS_Warr_walk");
 			transform.LookAt(player.transform.position);
 			myTransform.position += myTransform.forward * moveSpeed * Time.deltaTime;
 			myTransform.rotation = Quaternion.Slerp(myTransform.rotation, Quaternion.LookRotation(player.position - myTransform.position), rotationSpeed * Time.deltaTime);
@@ -87,7 +89,6 @@ public class BlackKnight : MonoBehaviour {
 			healthdisplay.text = curHealth + "/" + maxHealth;
 		}
 		
-
 		myTransform.position = myTransform.position;
 		
 	}
@@ -111,11 +112,11 @@ public class BlackKnight : MonoBehaviour {
 		Vector3 dir = (target.transform.position - transform.position).normalized;
 		float direction = Vector3.Dot(dir, transform.forward);
 
-		if(distance() < 2.5f) {
+		if(distance() < 3.5f) {
 			if(direction > 0) { 
-				GetComponent<Animation>().Play("attackSword");
+				GetComponent<Animation>().Play("NPS_Warr_Up_Down_blow");
 				PlayerHealth eh = (PlayerHealth)target.GetComponent("PlayerHealth");
-				eh.AddjustCurrentHealth(-10);
+				eh.AddjustCurrentHealth(-20);
 			}
 		}
 	}

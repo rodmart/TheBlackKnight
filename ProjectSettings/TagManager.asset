@@ -12,6 +12,7 @@ TagManager:
   - pickup
   - sword
   - swordUpgrade
+  - BK
   layers:
   - Default
   - TransparentFX
