@@ -12,8 +12,9 @@ public class EnemyAI : MonoBehaviour {
 	private int mindistance;
 	public GameObject mob;
 	private Transform myTransform;
-	
-	private int maxHealth = 100;
+    public GameObject itemToSpawn;
+
+    private int maxHealth = 100;
 	private int curHealth = 100;
 	private bool alive = true;
 	
@@ -57,7 +58,9 @@ public class EnemyAI : MonoBehaviour {
 			alive = false;
 			GetComponent<Animation>().Play("death1");
 			Destroy(mob,3);
-			healthdisplay.text = curHealth + "/" + maxHealth;
+            GameObject obj = Instantiate(itemToSpawn, transform.position + new Vector3(1,1), transform.rotation);
+            obj.tag = "potion1";
+            healthdisplay.text = curHealth + "/" + maxHealth;
 			
 		}
 		

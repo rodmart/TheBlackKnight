@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class TestingInventory : MonoBehaviour {
     public GameObject inventoryUI;
     public bool paused;
+
     // Use this for initialization
     void Start () {
         inventoryUI.SetActive(false);
@@ -20,8 +21,12 @@ public class TestingInventory : MonoBehaviour {
 
         if(inventoryUI.activeSelf)
         {
-            if (Input.GetKeyDown(KeyCode.I))    
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+               
                 inventoryUI.SetActive(false);
+            }
+            //inventoryUI.SetActive(false);
         }
         else
         {

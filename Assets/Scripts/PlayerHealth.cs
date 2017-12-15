@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 
 public class PlayerHealth : MonoBehaviour {
-	public int maxHealth = 100;
-	public int curHealth = 100;
+	public static int maxHealth = 100;
+	public static int curHealth = 100;
 	public int enemies;
 	public float healthBarLength;
 	public int questCompleted1 = 0;

@@ -13,6 +13,9 @@ TagManager:
   - sword
   - swordUpgrade
   - BK
+  - potion1
+  - potion2
+  - potion3
   layers:
   - Default
   - TransparentFX
