@@ -97,6 +97,22 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         }
 
+        private void OnTriggerEnter(Collider other)
+        {
+            if(other.gameObject.CompareTag("potion1"))
+            {
+                other.gameObject.SetActive(false);
+            }
+            if (other.gameObject.CompareTag("potion2"))
+            {
+                other.gameObject.SetActive(false);
+            }
+            if (other.gameObject.CompareTag("potion3"))
+            {
+                other.gameObject.SetActive(false);
+            }
+
+        }
 
         private void PlayLandingSound()
         {
